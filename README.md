@@ -72,7 +72,7 @@ pip freeze > requirements-dev.txt
 * gunicorn
 * psycopg2
 
-## Create a file Procfile and add the following code
+## Create a file Procfile and add the following code. Don't forget to change 'website' to your root app name...
 * web: gunicorn website.wsgi --log-file -
 
 ## Create a file runtime.txt and add the following core
